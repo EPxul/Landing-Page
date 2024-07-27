@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex; /* Makes .header a flex container */
+    justify-content: space-between; /* Ensures space between .logo and .headers */
+    align-items: center; /* Vertically centers the items within .header */
+    padding: 10px 20px;
+}
+
+.logo {
+    margin-left:153px;
+    font-size: 24px; /* Example styling */
+    font-weight: bold;
+    color:#F9FAF8;
+}
+
+.headers {
+    margin-right: 60px;
+    display: flex; /* Makes .headers a flex container */
+    align-items: flex-end; /* Aligns child elements to the end of .headers */
+}
+
+.headers div {
+    margin: 0 10px; /* Adds some spacing between the header links */
+}
+
+.main-content {
+    padding: 50px 20px;
+    background-color: #1f2937;
+    color:white;
+}
+
+.text-and-image {
+    display: flex; /* Makes .text-and-image a flex container */
+    align-items: center; /* Vertically centers items */
+    justify-content: center; /* Centers items horizontally if there's extra space */
+    gap: 20px; /* Adds space between text and image */
+}
+
+.text-content {
+    max-width: 600px; /* Optional: limit width of text content */
+    text-align: left; /* Aligns text to the left */
+    margin-left: 100px;
+}
+
+.subheading{
+    font-size: 45px;
+    font-weight: 300; /* Lighter font weight */
+}
+
+
+
+.sign-up-box{
+    
+       /* margin-left:150px; /* Pushes the sign-up box to the far right */
+        background-color: #3882F6; /* Background color of the sign-up box */
+        color: white; /* Text color */
+        width: 140px; /* Adjust width as needed */
+        height: 35px; /* Adjust height as needed */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px; /* Rounded corners for the sign-up box */
+        position: relative;
+        top: -30px; /* Moves the box upwards by 20 pixels */
+    
+}
+
+.main-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #F9FAF8;
+
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 40px;
+}
+
+.image-placeholder {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    display: flex; /* Centers text vertically and horizontally */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -22px; /* Moves the box upwards by 20 pixels */
+    right: -15px
+}
+
+.random-info {
+    padding: 40px 20px;
+    background-color: white; /* White background */
+    color: #1f2937; /* Blue text color */
+    text-align: center; /* Center-aligns text */
+}
+
+.random-info h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    margin-bottom: 20px;
+    position:relative;
+    top:-20px;
+}
+
+.info-boxes {
+    display: flex; /* Makes .info-boxes a flex container */
+    flex-wrap: wrap; /* Allows boxes to wrap if necessary */
+    gap: 20px; /* Adds space between boxes */
+    justify-content: center; /* Centers boxes horizontally */
+}
+
+.info-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-box {
+    background-color: white; /* White background */
+    border: 2px solid #3882f6; /* Blue border */
+    color: #003366; /* Blue text color */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    width: 75px; /*150px; /* Width of the box */
+    height: 85px;/*165px; /* Height of the box (longest side vertical) */
+    display: flex; /* Flex container for centering text */
+    align-items: center;
+    justify-content: center;
+}
+
+.grey-box {
+    padding: 2px 1px;
+    background-color: #E5E7EB; /* Light gray background */
+    color: #1F2937; /* Blue text color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: left; /* Align text to the left */
+   /* box-sizing: border-box; /* Ensure padding is included in the box size */
+    height: 400px; /* Specify a height for demonstration purposes */
+    
+}
+
+.text{
+    font-size: 36px;
+    font-style: light italic;
+    
+    
+}
+
+.attribution {
+    position: absolute; /* Position absolutely within the container */
+    bottom: -480px; /* Distance from the bottom of the container */
+    right: 250px; /* Distance from the right edge of the container */
+    font-size: 23px; /* Adjust font size as needed */
+    font-family: roboto; /* Match the font family */
+    color: #1f2937; /* Match the text color */
+    font-weight:bold;
+}
+
+.white-box {
+    padding: 2px 1px;
+    background-color: white;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue-box {
+    width: 850px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    background-color: #3882f6;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Space on the sides */
+    border-radius: 5px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.big-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.small-text {
+    font-size: 15px;
+    color: white;
+}
+
+.sign-up {
+    margin-left:150px; /* Pushes the sign-up box to the far right */
+    background-color: #3882f6; /* Background color of the sign-up box */
+    color: white; /* Text color */
+    width: 120px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Rounded corners for the sign-up box */
+    border: 2px solid white; /* Border color */
+}
+
+.final-box{
+    
+        padding: 2px 1px;
+        background-color: #1f2937;
+        height: 100px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    
+}
+
+.final-text{
+    color:#E5E7EB;
+    font-size: 20px;
+    
+}
